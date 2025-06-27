@@ -5,7 +5,7 @@
 body{
   background: linear-gradient(to right,#f97794,#6200ff,#3498db);
   animation: animate 18s ease infinite;
-  background-size:180% 180%;
+  background-size: 180% 180%;
 }
 @keyframes  animate{
   0%{
@@ -17,7 +17,6 @@ body{
   100%{
     background-position: 0% 50%
   }
-
 }
 .universe{
   height:100vh;
@@ -129,4 +128,7 @@ a:hover{
 }
 .hidden.show{
   opacity: 1;
+}
+input[placeholder]{
+  text-align: center;
 }
