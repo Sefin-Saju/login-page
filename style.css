@@ -4,7 +4,20 @@
 }
 body{
   background: linear-gradient(to right,#f97794,#6200ff,#3498db);
-  animation: gradientAnimation 3s ease; infinite;
+  animation: animate 3s ease; infinite;
+  background-size:180% 180%;
+}
+@keyframes  animate{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%
+  }
+
 }
 .universe{
   height:100vh;
