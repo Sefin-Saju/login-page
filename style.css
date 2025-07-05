@@ -134,9 +134,8 @@ input[placeholder]{
 }
 @media (max-width:768px) {
   .solar-system{
-    height:275px;
-    width:250px;
-
+    height:300px;
+    width:275px;
   }
   .mercury,.earth,.neptune{
     transform: scale(0.7);
