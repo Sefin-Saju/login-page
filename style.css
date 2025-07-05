@@ -132,3 +132,13 @@ a:hover{
 input[placeholder]{
   text-align: center;
 }
+@media (max-width:768px) {
+  .solar-system{
+    height:275px;
+    width:250px;
+
+  }
+  .mercury,.earth,.neptune{
+    transform: scale(0.7);
+  }
+}
